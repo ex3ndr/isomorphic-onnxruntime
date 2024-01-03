@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-onnxruntime",
-  "version": "0.0.2-pre",
+  "version": "0.0.3-pre",
   "main": "lib/index.js",
   "browser": "lib/browser.js",
   "types": "lib/index.d.ts",
