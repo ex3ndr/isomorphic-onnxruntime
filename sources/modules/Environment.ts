@@ -1,0 +1,1 @@
+export type Environment = 'web' | 'node' | 'react-native';

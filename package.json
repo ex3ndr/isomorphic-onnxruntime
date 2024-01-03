@@ -1,0 +1,47 @@
+{
+  "name": "isomorphic-onnxruntime",
+  "version": "0.0.0-pre",
+  "main": "lib/index.js",
+  "browser": "lib/browser.js",
+  "types": "lib/index.d.ts",
+  "description": "Isomorphic wrapper for onnxruntime libraries",
+  "repository": "https://github.com/ex3ndr/isomorphic-onnxruntime.git",
+  "author": "Steve Korshakov <steve@korshakov.com>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -fr lib && tsc --declaration",
+    "test": "jest",
+    "release": "yarn build && yarn release-it"
+  },
+  "peerDependencies": {
+    "onnxruntime-node": "^1.16.0",
+    "onnxruntime-web": "^1.16.0"
+  },
+  "devDependencies": {
+    "@release-it/keep-a-changelog": "^3.1.0",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.6",
+    "jest": "^29.7.0",
+    "release-it": "^15.5.1",
+    "ts-jest": "^29.1.1",
+    "onnxruntime-node": "^1.16.3",
+    "onnxruntime-web": "^1.16.3",
+    "typescript": "^5.3.3"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "plugins": {
+      "@release-it/keep-a-changelog": {
+        "filename": "CHANGELOG.md"
+      }
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
