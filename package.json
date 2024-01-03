@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-onnxruntime",
-  "version": "0.0.0-pre",
+  "version": "0.0.2-pre",
   "main": "lib/index.js",
   "browser": "lib/browser.js",
   "types": "lib/index.d.ts",
@@ -17,9 +17,9 @@
     "release": "yarn build && yarn release-it"
   },
   "peerDependencies": {
+    "onnxruntime-common": "^1.16.0",
     "onnxruntime-node": "^1.16.0",
-    "onnxruntime-web": "^1.16.0",
-    "onnxruntime-common": "^1.16.0"
+    "onnxruntime-web": "^1.16.0"
   },
   "devDependencies": {
     "@release-it/keep-a-changelog": "^3.1.0",
