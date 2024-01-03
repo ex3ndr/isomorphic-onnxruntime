@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ✨ Implemented Web and NodeJS support
 
-## [0.0.x-dev]
+## [0.0.3-pre]
 
-Initial development releases
+Experimental release
+
+## [0.0.2-pre]
+
+Experimental release
+
+## [0.0.1-pre]
+
+Experimental release
+
+## [0.0.0-pre]
+
+Experimental release
