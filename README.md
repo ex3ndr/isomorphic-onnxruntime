@@ -22,6 +22,15 @@ import { InferenceSession } from "isomorphic-onnxruntime"; // instead of "onnxru
 
 ```
 
+## Check installation
+
+When in doubt you can always check loaded environment by importing `environment` from `isomorphic-onnxruntime` and checking it's value:
+
+```typescript
+import { environment } from "isomorphic-onnxruntime";
+console.log(environment); // "web" or "node"
+```
+
 ## License
 
 MIT
