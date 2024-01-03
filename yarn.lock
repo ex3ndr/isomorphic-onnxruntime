@@ -3397,7 +3397,7 @@ onetime@^6.0.0:
   dependencies:
     mimic-fn "^4.0.0"
 
-onnxruntime-common@~1.16.3:
+onnxruntime-common@^1.16.3, onnxruntime-common@~1.16.3:
   version "1.16.3"
   resolved "https://registry.yarnpkg.com/onnxruntime-common/-/onnxruntime-common-1.16.3.tgz#216bd1318d171496f1e92906a801c95bd2fb1aaa"
   integrity sha512-ZZfFzEqBf6YIGwB9PtBLESHI53jMXA+/hn+ACVUbEfPuK2xI5vMGpLPn+idpwCmHsKJNRzRwqV12K+6TQj6tug==
